@@ -24,14 +24,14 @@ public class Win {
     }
 
     public static boolean monoVertical(int[][] board, int column) {
-        boolean result = true;
+        boolean rsl = true;
         for (int cell = 0; cell < board.length; cell++) {
             if (board[cell][column] != 1) {
-                result = false;
+                rsl = false;
                 break;
             }
         }
-        return result;
+        return rsl;
     }
 
 }
